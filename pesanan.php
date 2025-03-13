@@ -44,7 +44,7 @@
                     Anda harus memilih isian daging!
                 </div>
                 <div class='modal-footer'>
-                    <button type='button' class='btn text-white' style='background-color: #FA812F;' onclick='redirectToMenu();'>Tutup</button>
+                    <button type='button' class='btn text-white' style='background-color: #FA812F;' onclick='redirectToMenu();'>Kembali</button>
                 </div>
             </div>
             </div>
@@ -52,7 +52,7 @@
 
             <script>
                 function redirectToMenu() {
-                    window.location.href = 'menu.php';
+                    window.location.href = 'index.html';
                 }
             </script>
             ";
@@ -237,7 +237,7 @@
         </tr>
     </table>
 
-    <a href="menu.php" class="btn">Kembali ke Menu</a>
+    <a href="index.html" class="btn">Kembali ke Menu</a>
 
     <br> <hr>
     <footer class="footer">
